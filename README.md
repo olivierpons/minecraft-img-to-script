@@ -1,6 +1,13 @@
 # minecraft-img-to-script
 Image to Minecraft script converter.
 
+For example, converting this:
+![Minecraft image converter](https://github.com/olivierpons/minecraft-img-to-script/blob/master/0.png)
+...
+into the game:
+
+![Minecraft image converter](https://github.com/olivierpons/minecraft-img-to-script/blob/master/screenshot-2020-01-22_00.02.01.jpg)
+
 First here's **how to create a working script.**
 
 When you launch the Minecraft server, precise the name of a world 
