@@ -73,6 +73,9 @@ Now, look for a picture with a max size of 150 x 150
 (it's Minecraft's limitations), and try to use
 the `main.py` to convert the picture to a Minecraft script.
 
+Note (very important too!) that the name of the destination file **must
+end** with `.mcfunction`!
+
 For the record, here's how my command line is:
 
 ```
