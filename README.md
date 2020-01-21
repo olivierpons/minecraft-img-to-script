@@ -77,6 +77,5 @@ For the record, here's how my command line is:
 
 ```
 python3 main.py -i 0.png \
--o "/[blabla]/my_world/world-2019-03-12/\
-datapacks/hqf/data/hqf/functions/img.mcfunction"
+-o "/[blabla]/my_world/world-2019-03-12/datapacks/hqf/data/hqf/functions/img.mcfunction"
 ```
