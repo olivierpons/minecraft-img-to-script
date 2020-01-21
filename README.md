@@ -6,7 +6,7 @@ For example, converting this:
 ...
 into the game:
 
-![Minecraft image converter](https://github.com/olivierpons/minecraft-img-to-script/blob/master/screenshot-2020-01-22_00.02.01.jpg)
+![Minecraft image converter](https://github.com/olivierpons/minecraft-img-to-script/blob/master/screenshot-2020-01-22_01.02.01.jpg)
 
 First here's **how to create a working script.**
 
