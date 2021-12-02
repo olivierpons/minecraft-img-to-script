@@ -76,9 +76,11 @@ the `main.py` to convert the picture to a Minecraft script.
 Note (very important too!) that the name of the destination file **must
 end** with `.mcfunction`!
 
-For the record, here's how my command line is:
+Here's the working example of my command line:
 
 ```
 python3 main.py -i 0.png \
 -o "/[blabla]/my_world/world-2019-03-12/datapacks/hqf/data/hqf/functions/img.mcfunction"
 ```
+
+
