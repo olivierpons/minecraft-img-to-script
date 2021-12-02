@@ -76,11 +76,43 @@ the `main.py` to convert the picture to a Minecraft script.
 Note (very important too!) that the name of the destination file **must
 end** with `.mcfunction`!
 
-Here's the working example of my command line:
+
+## Working example
+
+My working command line:
 
 ```
 python3 main.py -i 0.png \
 -o "/[blabla]/my_world/world-2019-03-12/datapacks/hqf/data/hqf/functions/img.mcfunction"
 ```
 
+Give the admin rights to a player:
 
+```
+/op surfer_ix
+```
+
+Then, with the player:
+
+```
+/function hqf:img
+```
+
+
+## Torch / orientation
+
+Even though it seems strange, there are a *very few information*
+(almost nothing) on how to choose a "torch" orientation.
+
+What worked for me is (as of Minecraft 1.18.xx):
+
+- it's **not** "`/setblock ~1 ~1 ~0 torch[whatever]`"
+- it's **not** "`/setblock ~1 ~1 ~0 torch [number]` 
+  (oh my god so many useless examples like this!)
+
+It's
+```
+/setblock ~1 ~1 ~0 wall_torch[facing=north]
+```
+
+It's not `torch`, it's **`wall_torch`**!
