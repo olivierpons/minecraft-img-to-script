@@ -92,7 +92,8 @@ Give the admin rights to a player:
 /op surfer_ix
 ```
 
-Then, with the player:
+Then, with the player: launch Minecraft player,
+and once connected, type:
 
 ```
 /function hqf:img
@@ -101,7 +102,7 @@ Then, with the player:
 
 ## Torch / orientation
 
-Even though it seems strange, there are a *very few information*
+Even though it seems strange, there is *very little information*
 (almost nothing) on how to choose a "torch" orientation.
 
 What worked for me is (as of Minecraft 1.18.xx):
