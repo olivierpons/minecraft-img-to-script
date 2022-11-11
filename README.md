@@ -2,11 +2,11 @@
 Image to Minecraft script converter.
 
 For example, converting this:
-![Minecraft image converter](https://github.com/olivierpons/minecraft-img-to-script/blob/master/0.png)
+![Minecraft image converter](0.png)
 ...
 into the game:
 
-![Minecraft image converter](https://github.com/olivierpons/minecraft-img-to-script/blob/master/screenshot-2020-01-22_01.02.01.jpg)
+![Minecraft image converter](screenshot-2020-01-22_01.02.01.jpg)
 
 First here's **how to create a working script.**
 
@@ -18,7 +18,7 @@ java -jar server.jar nogui --universe my_world
 ```
 
 With the previous example you will get a folder called `my_world`.
-In this folder, Minecraft creates a subfolder like 
+In this folder, Minecraft creates a sub-folder like 
 `world-[Year]-[Month]-[day]` so right now this will is, like this:
 
 ```
@@ -48,8 +48,8 @@ this text in it:
    }
 }
 ```
-Now create another subfolder called `data` and in this folder
-create another one (!) subfolder called `functions`.
+Now create another sub-folder called `data` and in this folder
+create another one(!) sub-folder called `functions`.
 
 **You should have a tree like this:**
 
@@ -102,8 +102,8 @@ and once connected, type:
 
 ## Torch / orientation
 
-Even though it seems strange, there is *very little information*
-(almost nothing) on how to choose a "torch" orientation.
+Even though it seems strange, there is very little information on how to
+choose a "torch" orientation.
 
 What worked for me is (as of Minecraft 1.18.xx):
 

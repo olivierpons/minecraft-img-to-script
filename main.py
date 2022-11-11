@@ -1,7 +1,7 @@
 # as of 2020/01/21, this should be saved in a location like:
 # [your Minecraft folder]/[your world]/world-[Year]-[Month]-[day]/datapacks/...
 #      ... /[name XX]/data/[name XX]/functions/[a name YY].mcfunction
-# for example for me it's:
+# for example for me, it's:
 # my_test/world-2019-03-12/datapacks/hqf/data/hqf/functions/image.mcfunction
 # and I call it like this in MineCraft:
 # /function hqf:image
