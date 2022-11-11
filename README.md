@@ -105,15 +105,15 @@ and once connected, type:
 Even though it seems strange, there is very little information on how to
 choose a "torch" orientation.
 
-What worked for me is (as of Minecraft 1.18.xx):
+It's not `torch`, it's **`wall_torch`**!
 
-- it's **not** "`/setblock ~1 ~1 ~0 torch[whatever]`"
-- it's **not** "`/setblock ~1 ~1 ~0 torch [number]` 
-  (oh my god so many useless examples like this!)
+What worked for me is (as of Minecraft 1.19.xx):
 
 It's
 ```
 /setblock ~1 ~1 ~0 wall_torch[facing=north]
 ```
 
-It's not `torch`, it's **`wall_torch`**!
+It's **not**
+- "`/setblock ~1 ~1 ~0 torch[whatever]`"
+- "`/setblock ~1 ~1 ~0 torch [number]`
